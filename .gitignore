@@ -1,0 +1,47 @@
+# Quartus Prime 生成文件
+# 编译输出目录
+output_files/
+incremental_db/
+
+# Quartus 数据库文件
+*.qdb
+*.qsys
+*.qip
+*.sopcinfo
+*.spd
+
+# 仿真文件
+simulation/
+*.vo
+*.vho
+*_bb.v
+*_inst.v
+*_syn.v
+*_synth.vhm
+
+# 时序分析报告
+*.sta.rpt
+*.tim_*.rpt
+
+# 编译报告
+*.fit.rpt
+*.map.rpt
+*.synthesis.rpt
+*.fitter.rpt
+
+# 编程文件（可选，视需要保留）
+# *.pof
+# *.sof
+# *.pds
+
+# 临时文件
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.idea/
+.vscode/
+*.iml
